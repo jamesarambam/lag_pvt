@@ -1,6 +1,12 @@
 site_name: LAG
 theme: spacelab
+plugins: []
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Home: index.md
   - Research Guidelines: res_guide.md
   - Research Method: res_meth.md
+  - Papers: 
+    - Single-Agent RL: s_rl.md
+    - Multi-Agent RL: m_rl.md

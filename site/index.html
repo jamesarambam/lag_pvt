@@ -17,6 +17,7 @@
         <link href="css/base.css" rel="stylesheet">
         <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css" >
         <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="stylesheets/extra.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
@@ -43,14 +44,22 @@
                             <li class="nav-item">
                                 <a href="res_meth/" class="nav-link">Research Method</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Papers</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="s_rl.md" class="dropdown-item">Single-Agent RL</a>
+</li>
+                                    
+<li>
+    <a href="m_rl.md" class="dropdown-item">Multi-Agent RL</a>
+</li>
+                                </ul>
+                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
                             <li class="nav-item">
                                 <a rel="prev" class="nav-link disabled">
                                     <i class="fa fa-arrow-left"></i> Previous
@@ -90,7 +99,8 @@
 
 <h1 id="welcome-to-learning-agent-group-lag">Welcome to Learning Agent Group (LAG)</h1>
 <hr />
-<p><br><br><br><br><br><br></p>
+<p><br></p>
+<p><img src="images/team.jpg" alt="team" width="900" height="400" /></p>
 <p><br><br></p>
 <center><b><font color="red">THIS WEBSITE IS INTENDED EXCLUSIVELY FOR INTERNAL USE BY OUR TEAM.</font></b></center>
 <!-- <center><b><font color="red">This website is intended exclusively for internal use by our team.</font></b></center> --></div>
@@ -107,29 +117,8 @@
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -175,5 +164,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-12-05 03:34:57.334971+00:00
+Build Date UTC : 2025-12-05 10:48:29.447935+00:00
 -->
