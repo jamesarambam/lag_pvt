@@ -1,0 +1,6 @@
+site_name: LAG
+theme: spacelab
+nav:
+  - Home: index.md
+  - Research Guidelines: res_guide.md
+  - Research Method: res_meth.md
