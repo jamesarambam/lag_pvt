@@ -1,7 +1,6 @@
 site_name: LAG
 theme: mkdocs
 plugins:
-      - search
       - encryptcontent:
           global_password: 'bellman'
 extra_css:
@@ -10,7 +9,9 @@ nav:
   - Home: index.md
   - Guidelines: res_guide.md
   - Method: res_meth.md  
+  - Experiments: exp.md
+  - Server: serv.md
+  - Paper Reading: ppr_rdg.md
   - Papers: 
     - Single-Agent RL: s_rl.md
     - Multi-Agent RL: m_rl.md
-  - Group Calendar: cal.md
