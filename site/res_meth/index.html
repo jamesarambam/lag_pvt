@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Research Method - LAG</title>
+        <title>[Protected] Method - LAG</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -36,13 +36,13 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href=".." class="nav-link">Home</a>
+                                <a href=".." class="nav-link">[Protected] Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../res_guide/" class="nav-link">Research Guidelines</a>
+                                <a href="../res_guide/" class="nav-link">[Protected] Guidelines</a>
                             </li>
                             <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Research Method</a>
+                                <a href="./" class="nav-link active" aria-current="page">[Protected] Method</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Papers</a>
@@ -58,11 +58,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="../cal/" class="nav-link">Group Calendar</a>
+                                <a href="../cal/" class="nav-link">[Protected] Group Calendar</a>
                             </li>
                         </ul>
 
                     <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
                             <li class="nav-item">
                                 <a rel="prev" href="../res_guide/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
@@ -112,37 +117,33 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="research-methodology">Research Methodology</h1>
-<hr />
-<p><br>
-<br></p>
-<h2 id="problem-driven-research">Problem-driven research</h2>
-<hr />
-<p>PhD research means finding an important open problem and making significant progress towards solving the problem. Using the right methodology is key in this process, and this is one of the central learning outcomes of your PhD journey.</p>
-<p>New students, having read many recent papers with exciting results, will often want to start right away with working on new methods to achieve similarly exciting results. There is typically a strong focus on method design and testing. What is often lost in the process is due consideration for the underlying problem that the method should address. Such work typically ends up with a vaguely defined problem and a method that lacks clear justification; it's not clear why the method is useful and what problem it actually solves. I call this approach "methods-driven tinkering".</p>
-<p>In contrast, problem-driven research starts with identifying the actual problem before attempting to find new methods. This involves answers to the following questions:</p>
-<p>Problem: What specific technical problem does your research address? Motivation: Why is this problem important? (What can a solution to the problem enable us to do?) State of research: Why are current methods unable to solve the problem? (technical limitations, assumptions, etc) Contribution: How does your proposed method address the problem? It is important to put significant thought into these questions, including writing it down formally, as this will frame your search for a method as well as how you evaluate it.</p>
-<p>You can further maximise the impact of your work by exploring new problems which are significantly different from prior work. For example, if there is a widely-used but limiting assumption in the literature, your research could be the first to attempt to eliminate or relax this assumption. Exploring new problems can maximise your impact because others may follow your direction, in which case they are likely to cite your work. In contrast, it is relatively less exciting to work on iterative improvements, i.e. "doing more of the same", which may be easily overlooked (or ignored) by others in the field.</p>
-<p><br></p>
-<h2 id="finding-open-problems-and-challenge-tasks">Finding open problems and challenge tasks</h2>
-<hr />
-<p>My advice for finding open problems and challenge tasks:</p>
-<p>Read: Start by reading papers in your area. In the process, try to identify limitations in existing algorithms, such as restrictive assumptions in the used models and algorithms. Assumptions in evaluation settings may also hint at limitations of the algorithms. Try to identify common limitations across algorithms to maximise the relevance and impact of your work. Survey papers often contain sections on open problems which can give useful inspiration. Once a technical problem has been identified, try to formulate challenge tasks which require a solution to the problem.</p>
-<p>Play: Implement a collection of state-of-the-art and/or baseline algorithms in the field and test them on some recent benchmark tasks. By using these algorithms to solve difficult tasks, you will gain a deeper understanding of their inner workings and their limitations, some of which may not be apparent from their original papers. Based on this experience, try to identify important open problems and new challenge tasks, for example by modifying the tested benchmark tasks to highlight the open problem.</p>
-<p>Talk: Seek out and use opportunities to talk about your research and the research of others, whether in informal chats or formal presentations (e.g. group meetings, institute seminars, conferences/workshops, etc). Talking about your work requires you to express your ideas in a clear and succinct way, and is an important channel to get feedback and suggestions from others. It often happens that PhD students bury themselves in their work, which carries a risk of missing out on useful ideas; talking with other people is one way to avoid that.</p>
-<p><br></p>
-<h2 id="experimental-evaluation">Experimental evaluation</h2>
-<hr />
-<p>Systematic evaluation is a central element of a research methodology. Much of the research in our group is empirical, which means that claims and hypotheses are tested in practice.</p>
-<p>An important question to consider is what evaluation tasks to use. The choice of evaluation tasks should be guided by your open problem, in that a solution to the problem is required to successfully complete the tasks. I call such tasks challenge tasks because they allow you to say "this task cannot be solved (well) with current methods due to the open problem". Using a non-contrived, ambitious challenge task gives your research a stronger justification and can force you to think outside the box to find novel ideas.</p>
-<p>When designing experiments, try to have specific questions in mind that the experiments should answer. For example:</p>
-<p>How does your method compare to other methods? (e.g. rewards, accuracy, sample complexity, compute time) How does your method scale in certain dimensions? (e.g. number of agents, actions, states) What is the contribution/effect of different components in your method? (ablation study) How does your method perform if certain assumptions are violated? If you observed a specific result and have a hypothesis to explain the result, you may want to design additional experiments to specifically test your hypothesis.</p>
-<p>The use of baselines is crucial to set the bars for what constitutes good and bad performance. There are generally three kinds of baselines:</p>
-<p>Best-case/worst-case: Best/worst-case (or upper/lower) baselines are useful to show the margin of possible improvement. Best/worst can mean different things depending on your work. For example, a best-case may be an exact method with "unlimited" compute time, or with access to privileged information that would normally not be available. A worst-case may be a method that is limited or basic in some specific sense. Alterations/ablations: If your method consists of several interacting components, it is important to show the effect of each component. For example, these may be elements of your network architecture and input, loss functions, or other sub-functions in your method. Ablation studies take your full method and remove or alter certain elements to show the performance under these ablated/altered versions. State-of-the-art: If suitable, it can be a good idea to include some recent state-of-the-art algorithms for comparison. Ideally, each algorithm should use hyper-parameters that were optimised for that algorithm specifically (rather than using the same hyper-parameters for all algorithms), to maximise performance of each algorithm. Importantly, try to think of sensible baselines early in your research rather than as an afterthought.</p>
-<p>Once you have results from your experiments, you should use the right tools to understand the data. Use good visualisation, including second-order statistics (e.g. standard deviation/error). Statistical hypothesis tests should be used to establish whether observed differences are significant or due to variance. It is crucial to understand the meaning of statistical significance and how to apply such tests correctly. This guide on experimental design in RL research (and this guide on hypothesis testing) is a useful starting point.</p>
-<p><br><br></p>
-<center><b><font color="red">THIS WEBSITE IS INTENDED EXCLUSIVELY FOR INTERNAL USE BY OUR TEAM.</font></b></center>
-<!-- <center><b><font color="red">This website is intended exclusively for internal use by our team.</font></b></center> --></div>
+<div id="mkdocs-encrypted-content" style="display:none">XwOlTmpx7wVHkpxUOmeb1g==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form">
+        <h1>This content is protected with AES encryption. </h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "res_meth/";
+var decryption_failure_message = "Invalid password.";
+var encryptcontent_keystore = ["VZZ3UgCjBEQ/lrxSWcJyhQ==;l7u0uR1ii7D9rUAh0xOm5icwHwalLpbAN0qxbgmDWJeJjKuj5TvN1/gW0tba/2nn/PEPKQCr5s01l55KOaIm74udqjEi/ArnAQ0vaFjZimvCNyWjAwf1hk+pcEbNRDa5;kAAWGXeoRnXwJg2PIAiqoQ=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../assets/javascripts/decrypt-contents.js" defer></script></div>
             </div>
         </div>
 
@@ -156,8 +157,29 @@
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
-        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
