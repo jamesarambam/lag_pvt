@@ -4,8 +4,10 @@
 <br>
 <br>
 
+1. Notion
 
-<center><b> Under Construction!</font></b></center>
+2. Zotero
+
 
 
 <br><br>
