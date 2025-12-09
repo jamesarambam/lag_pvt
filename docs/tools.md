@@ -4,9 +4,10 @@
 <br>
 <br>
 
-1. Notion
+1. Notion: Note taking app.
 
-2. Zotero
+2. Zotero: Reference management app.
+https://www.youtube.com/watch?v=JG7Uq_JFDzE
 
 
 
