@@ -9,7 +9,7 @@ nav:
   - Home: index.md
   - Guidelines: res_guide.md
   - Method: res_meth.md  
-  - Experiments: exp.md
+  - Tools: tools.md
   - Server: serv.md
   - Paper Reading: ppr_rdg.md
   - Papers: 
