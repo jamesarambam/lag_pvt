@@ -9,9 +9,11 @@
 
 <br>
 <br>
-<br>
-<br>
-<center><b> Under Construction!</font></b></center>
+
+### Paper list:
+
+- REINFORCEMENT LEARNING WITH DISCRETE DIFFUSION POLICIES FOR COMBINATORIAL ACTION SPACES.
+
 
 
 <br><br>
