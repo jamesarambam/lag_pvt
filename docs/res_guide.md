@@ -21,6 +21,12 @@ The following structure is helpful:
 
 4. Propose what to do next until the next meeting
 
+5. Regarding Experiments: When you run experiments, please think about the followings:
+	- What's the goal of the experiment?	
+	- Expected results?
+	- <b>Very important:</b> Analyse the result and discuss it during the meeting.
+	- What should be the next set of experiments?
+
 Your advisors want to give you helpful feedback. However, remember that advisors have many such meetings, and keeping all the details in mind between meetings can be challenging. So, to facilitate valuable feedback, it is helpful to remind advisors of the state of the work and current targets.
 
 Preparing for the meeting means that you give some thought to 3) and 4) before the meeting. During the meeting, you should note down all work tasks agreed on, which can be used for 2) at the next meeting.
