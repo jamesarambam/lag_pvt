@@ -1,0 +1,3 @@
+Commands:
+mkdocs build
+mkdcos serve
