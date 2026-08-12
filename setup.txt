@@ -1,0 +1,31 @@
+######################################################################
+Installation:
+mkdocs==1.6.1
+mkdocs-bootswatch==1.1
+mkdocs-encryptcontent-plugin==3.0.5
+mkdocs-get-deps==0.2.0
+
+######################################################################
+
+1. Edit markdown files in docs folder
+
+2. Commands
+	- mkdocs build
+	- mkdocs serve
+
+3. localhost:8000
+
+4. Upload "site" folder in webhosting website.
+
+5. push the changes in github repo.
+
+
+######################################################################
+Web hosting website:
+https://app.netlify.com/
+rlgroup.iitd@gmail.com
+
+
+Go to Projects > lag-iitd-int > Deploys > "choose a folder" > Upload "site"
+
+
