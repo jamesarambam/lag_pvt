@@ -5,8 +5,11 @@
 <br>
 
 - Playing Atari with Deep Reinforcement Learning (DQN).
-- Double DQN.
-
+- Prioritized Experience Replay (PER).
+- Double Q-learning.
+- Deep Reinforcement Learning with Double Q-learning (Double DQN).
+- Deterministic Policy Gradient Algorithms (DPG).
+- Continuous Control with Deep Reinforcement Learning (DDPG).
 
 
 <br><br>
