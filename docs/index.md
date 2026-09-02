@@ -3,7 +3,7 @@
 
 <img src="images/team.jpg" alt="team" width="800" height="300" />
 
-<!-- ### Welcome to internal website of LARC! -->
+<!-- ### Welcome to internal website of LARC -->
 
 Welcome to the internal website of LARC! This platform acts as the central knowledge base for our research group, providing essential resources and information. It aims to facilitate a smooth onboarding process for new students, ensuring they have the necessary tools and guidance to integrate into the group. The site also serves as a comprehensive documentation hub for our ongoing research activities, keeping everyone informed and engaged with our latest developments.
 
