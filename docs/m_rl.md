@@ -5,6 +5,9 @@
 <br>
 
 - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments (MADDPG)
+- Value-Decomposition Networks For Cooperative  Multi-Agent Learning (VDN)
+- QMIX: Monotonic Value Function Factorisation for  Deep Multi-Agent Reinforcement Learning (QMIX)
+- Counterfactual Multi-Agent Policy Gradients (COMA)
 
 
 
