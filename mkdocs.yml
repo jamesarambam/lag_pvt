@@ -1,4 +1,4 @@
-site_name: LAG
+site_name: LARC
 theme: mkdocs
 plugins:
       - encryptcontent:

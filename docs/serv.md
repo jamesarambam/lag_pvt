@@ -3,7 +3,7 @@
 ---
 
 ### Strider:
-- Configuration: 96 Cores(192 Threads) AMD Threadripper, 312 GB Memory, NVIDIA GPU - RTX 5000 32 GB Ada Gen.
+- Configuration: 96 Cores(192 Threads) AMD Threadripper, 312 GB Memory, 2 x NVIDIA GPU - RTX 5000 32 GB Ada Gen.
 - Rightnow the server is configured with dynamic ip but it doesnot change much.
 - hostname: strider
 - ipaddress: Provided in slack.
