@@ -1,4 +1,4 @@
-## Learning Agents Group!
+## Learning Agents Research Collective (LARC)
 ---
 
 <img src="images/team.jpg" alt="team" width="800" height="300" />
