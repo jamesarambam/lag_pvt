@@ -1,4 +1,4 @@
-## Papers in Multi-Agent Reinforcement Learning Reading
+## Multi-Agent RL Reading List
 
 ---
 <br>

@@ -1,4 +1,4 @@
-## Papers in Single Agent Reinforcement Learning Reading
+## Single Agent RL Reading List
 
 ---
 <br>
