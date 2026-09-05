@@ -1,14 +1,15 @@
-# Papers in Multi-Agent Reinforcement Learning Reading
+## Papers in Multi-Agent Reinforcement Learning Reading
 
 ---
 <br>
 <br>
 
 
-### Basics
+### Basics:
 - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments (MADDPG)
 
-### Credit Assignment
+---
+### Credit Assignment:
 - Value-Decomposition Networks For Cooperative  Multi-Agent Learning (VDN)
 - QMIX: Monotonic Value Function Factorisation for  Deep Multi-Agent Reinforcement Learning (QMIX)
 - Counterfactual Multi-Agent Policy Gradients (COMA)

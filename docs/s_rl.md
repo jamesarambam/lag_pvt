@@ -1,9 +1,10 @@
-# Papers in Single Agent Reinforcement Learning Reading
+## Papers in Single Agent Reinforcement Learning Reading
 
 ---
 <br>
 <br>
 
+### Basics:
 - Playing Atari with Deep Reinforcement Learning (DQN).
 - Prioritized Experience Replay (PER).
 - Double Q-learning.
