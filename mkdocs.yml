@@ -15,3 +15,5 @@ nav:
   - Papers: 
     - Single-Agent RL: s_rl.md
     - Multi-Agent RL: m_rl.md
+    - Safe RL: safe_rl.md
+    - Ad-hoc RL: adh_rl.md

@@ -64,6 +64,14 @@
 <li>
     <a href="./" class="dropdown-item active" aria-current="page">[Protected] Multi-Agent RL</a>
 </li>
+                                    
+<li>
+    <a href="../safe_rl/" class="dropdown-item">Safe RL</a>
+</li>
+                                    
+<li>
+    <a href="../adh_rl/" class="dropdown-item">[Protected] Ad-hoc RL</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -75,7 +83,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../safe_rl/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -97,7 +105,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#papers-in-multi-agent-reinforcement-learning-reading" class="nav-link">Papers in Multi-Agent Reinforcement Learning Reading</a>
+            <li class="nav-item" data-bs-level="2"><a href="#multi-agent-rl-reading-list" class="nav-link">Multi-Agent RL Reading List</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -106,7 +114,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<div id="mkdocs-encrypted-content" style="display:none">L4Gn2WGr7P6pKe0wACEITw==;SoT3R2f22BMgoBUEytnB+qKIIUh88qda9HSYXpRdsukzEHxx+ByN6/uoMh5QH8wFSaQLvaiaetHCRvaCB1AO/1qwqyzFXqFrv7GHNIVfU2f6vwk/ukrCqtYUg7GXLc5ZC8wbqbt41DiPFCGIP27UY0j18u6D5qCL0VOC4FIZVO+IE+dj8DI6AUZ+sLk3ty9iURHzkPmpmqaipLH0HA08Sa8muLVe4y6u+1lKe/wJ56Np/wGLllTVoKc6ZbWsd7VM7H8sSIL4dvdjUyDWw/SAjyCGlRHq1uT+qGbeL8encrfQ3lQhw0L7v2ovPYk4WWl9D1ohLQXhFs7Avsoj/L7pyoU/Wd9vOVZAc2+SjQfk94y1RnuG2dXz189LkWnCYIGogVHvEJpiIXMMKfYM4FxNIEHaqmKDt/waGv6Q0H51XzS/H57ZSLiD3lHkbrOlGlMKC+44y1F4YkRiYej67fnlsZ0c4Eq6YLCavFB2oB92/NxtxhilbzG1Nlkcz5tDuIqsaT63CPpvQFvjoIz+zWtaCiUbpiRkv5J9BznaN0RXZ1JQDGrfQsXXp7a4xxp7igmYaFm31wVl+9SHUh+tp9IyO1l5xWOt5uQ3zSwoy0G5FcoKWtZcJUlSBZK4d7nw7dAuV9Br946U4rRBBwB9ypEHC+j2TaI1PRthER+BRpHU4nvNuNJgzJlv+PBFYGOzeQHerFPhI9r6QwmdCely1XLKVxzMPsUN7TNeV4MdI8ry5pji4s/dIsel2suZ8EtQfmBI8hxQrHhprROO7tb/PYoYgfouc3NFXvAAORKn6uuP7nbtfGmYnpv8OpcqFMyv8iPNFs9Nt4SynbucXC9ipkBK5w==</div>
+<div id="mkdocs-encrypted-content" style="display:none">35yJOV5s8LGX0QhtMBbpGg==;csnyxk7qerkxYV8iaE2EXdGEGDAWQs6k2WDF38ParPQvRJEStA2hHlHKlg+o/994yYoGleImxX3PUQQAqQ+vy3DMe+/Il1R4fiNx4LDTh21AkG0IVS65b43sEPPKMEHKJms2IPGC4I+rtZLoLChAiruaJxGwBKkelCokYc/kFibFIH3MiKSXc/AgDo9J74i/Zqp4tki2Rk9+PkMRFAERi9FoagmHBQWOGxFFR/vhOmsbwBMxwhMCmXs/AQCf/E+M8vVcx5CHfXj3DL05ePwbPKpJJOhRESe5yXxAodE/pseD1TUtj0Yw7hsfLi2pg7PUYH0BPIv1REmskqXlWJyXsthu6jI/MvxFy6nILMzmwwHEv+RJ4K274iuX4qUU9vtJ4FqlMjCIDQk9bgTqkZTvOtGmR8FawZGHc0CfLHg0lx7Uiappt5b14crNoCtqfOBRd1+Pgji8xV3c7fgrE94hieMHTe9JOBVdkwOozay+w8QbRyJWtNlPngH9wJ/ygOHBAF8JiPpr6jSFwRViOmcShDjLpLFwPGXovqXEQ+Tk9IUJzN2H/kqXwhHOm/KD0HMkWRNI53hM6GInalI7NE4r/44IZS+wMKQQHUl7pJpTeBk5VfPmZriO+bHhLNNXWib3W7g/QEcK7XP0ZLhhkfsejWyCOOnOkeSgztZNFRjaOIfAWLr64JlCB2UIGeXlcLLstdr1SqOo3baJjqiBnBQIjxrKNwcXs9UXHCG5fEnxYFBLNM2u1/cb1thQAeRvXMtNE3QvL3domLhyYZYGr0OfKT1YFWtGTBW9S+J7oBb5K6GCM77P0nyWTg7CHEy4O/H+awIIjPQ4p+ASSxYdkUZF1I8UeO8gdOzEMILhlVTgYKHXXOVOVnO5u26UCtI0ks7QxnaL43PD6oWh36VunST8/JgfY/kqnDrMinfF5zMEqy7hHzZdYevp851TkiBDCALwCKqlKyHetbbcBN/ghYdxf73RwXoVRxvu7z5imijWr0z3OlIIeW3eO8aN8FpOMOc/rNyy4019KWjGpnNprlQObsQOcPCzC3dQuFQjSqhsD0QjOM/OLPuIzMPYBqGg+uU8ryjboR+xl6fdZdwEOz+Z2ST0s8kIvRRD9dNM4YD8ZdVUMufVtxHHwyDW2K/iG6HGBHZwLnDrDhwdTc/NhylhXsAD4RreNfCKx+Bh+zQlr7eWcStUtEEYi42ToEnbuCXhnMv1ditqaYDgymDE4mfXOh7dElbTyYD7PRTWhx6GGz1UgCmbMA0Owy4rEeYRIJHF/fSslQVilJ4x6WkLtD66FA==</div>
 <div id="mkdocs-decrypted-content" style="display:none">
     <form id="mkdocs-decrypt-form">
         <h1>This content is protected with AES encryption. </h1>
@@ -121,7 +129,7 @@
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "m_rl/";
 var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["SWk/KL/WbGrPl60qz57YoQ==;yQYwLemW1CLFAm9JVNSBjmcV++41af/hPjvPK+RWxBrZpzv2HK8qHiDmq6E5J2XQ3nKnXmvMBijDrtziwF73pGV4RW2Z+GUITeCDaQpdQ3me7zy5mWgvb2+9WIXKxceF;kAAWGXeoRnXwJg2PIAiqoQ=="];
+var encryptcontent_keystore = ["0PgoQScfsxlYlhYWxewvMw==;ITbiG0kvB1URCgHEauSkD9eVGxeEvVwdJXluUtUF0sQQQ4880ob6sAF7Z8+0M0WU5WyvyLjfv5J1Pe61dbPwdI1jvQrklNHhacKF5wW8yO9lEmewa+e63gIzyQyFIOe6;kAAWGXeoRnXwJg2PIAiqoQ=="];
 var encryptcontent_obfuscate = 0;
 
 </script>
