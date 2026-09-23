@@ -6,8 +6,8 @@
 
 
 ### Survey Papers:
-- Ad Hoc Autonomous Agent Teams: Collaboration without Pre-Coordination [Stone et al.]
-- A Survey of Ad Hoc Teamwork Research [Mirsky et al.]
+- Ad Hoc Autonomous Agent Teams: Collaboration without Pre-Coordination [Stone et al.] [[PDF]](<https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/AAAI10-adhoc.pdf>)
+- A Survey of Ad Hoc Teamwork Research [Mirsky et al.] [[PDF]](<https://arxiv.org/pdf/2202.10450>)
 
 
 <br><br>
