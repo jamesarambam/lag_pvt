@@ -17,3 +17,4 @@ nav:
     - Multi-Agent RL: m_rl.md
     - Safe RL: safe_rl.md
     - Ad-hoc RL: adh_rl.md
+  - Bibliography: ref.md 
