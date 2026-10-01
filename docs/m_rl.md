@@ -7,6 +7,7 @@
 
 ### Basics:
 - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments (MADDPG) [[PDF]](<https://arxiv.org/pdf/1706.02275>)
+- Settling the Variance of Multi-Agent Policy Gradients [[PDF]](<https://arxiv.org/pdf/2108.08612>)
 
 ---
 ### Credit Assignment:
