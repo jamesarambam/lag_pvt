@@ -1,7 +1,6 @@
 ## Single Agent RL Reading List
 
 ---
-<br>
 
 #### Basics:
 - Playing Atari with Deep Reinforcement Learning (DQN) [[PDF]](<https://www.nature.com/articles/nature14236>)
